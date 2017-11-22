@@ -1,0 +1,296 @@
+
+body {
+    margin: 0;
+      font-family: Times New Roman;
+}
+
+
+.column {
+    float: left;
+    width: 30px;
+    padding: 10px;
+    height: 100%;
+    background-color:#000;
+    border-radius: 2px;
+    color:black;
+    position: fixed;
+}
+.column1 {
+    float: left;
+    width: 250px;
+    padding: 10px;
+    height: 840px;
+    background-color:#fff;
+    border-radius: 2px;
+    color:black;
+    margin-top:40px;
+    margin-left: 60px;
+    border-bottom-left-radius: 10px;
+
+}
+.column2 {
+    float: left;
+    width: 670px;
+    height: 850px;
+   	border-radius: 2px;
+    color:black;
+    margin-top: 40px;
+}
+
+
+.column3 {
+    float: left;
+    width: 300px;
+    padding: 10px;
+    height: 700px;
+    border-radius: 2px;
+    color:black;
+    margin-top:5px;
+    margin-left: 7px;
+}
+
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row{
+		 margin-top: -15px;
+}
+
+
+
+.imguser{
+    width:150px; 
+    height:140px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+
+
+.lbluser{
+  margin-left: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.lblusertext{
+  margin-left: 20px;
+  font-size: 14px;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    height: 50%;
+    width: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    color: #4CAF50;
+}
+
+li a:hover:not(.active) {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.lblcenter{
+  font-size: 26px;
+  margin-bottom: 10px;
+  margin-top: 14px;
+}
+
+.lblcentername{
+    opacity: 0.6;
+}
+
+
+.lbldate{
+    opacity: 0.6;
+    margin-left: 32px;
+}
+
+.lblcenternames{
+    color:#85e085;
+}
+
+.btncontinue{
+    background-color: #000;
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.imgdate{
+    width:20px; 
+    height:20px;
+}
+
+.imgsocicon{
+    width:25px; 
+    height:25px;
+    margin-top: 20px;
+
+}
+.imgfbicon{
+    width:10px; 
+    height:18px;
+    margin-left: 7px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    position: static;
+}
+.imgtwittericon{
+    width:25px; 
+    height:30px;
+    margin-left: 0px;
+}
+.imggoogleicon{
+    width:21px; 
+    height:18px;
+    margin-left: 4px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+.imgyoutubeicon{
+    width:23px; 
+    height:19px;
+    margin-left: 1px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+
+}
+.imglinkedinicon{
+    width:19px; 
+    height:17px;
+    margin-left: 3px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+.imggithubicon{
+    width:19px; 
+    height:20px;
+    margin-left: 3px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    opacity: 0.7;
+}
+.imgarrowicon{
+    width:19px; 
+    height:20px;
+    margin-left: 3px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    opacity: 0.7;
+    position: static;
+}
+
+.btnposts{
+    background-color: #85e085;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btncomments{
+    background-color: #f2f2f2;
+    border: none;
+    color: black;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btntags{
+    background-color: #f2f2f2;
+    border: none;
+    color: black;
+    padding: 12px 13.5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.imgcomments{
+    width:15px; 
+    height:15px;
+    margin-right: 10px;
+}
+
+.hrsocicon{
+    width: 42px;
+    margin-left: -10px;
+    opacity: 0.7;
+
+}
+.hrarrowicon{
+    width: 42px;
+    margin-left: -10px;
+    opacity: 0.7;
+    margin-top: 270px;
+}
+
+.frameleft{
+    width: 110px;
+    height: 100px;
+    text-align: center;
+    border: 5px solid;
+    border-color: #bfbfbf;
+    float:left;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 10px;
+    opacity: 0.8;
+}
+.frameright{
+     width: 110px;
+    height: 100px;
+    text-align: center;
+    border: 5px solid;
+    border-color: #bfbfbf;
+    float:left;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+.framesize{
+    margin-top: 40px;
+}
+
+.centerdiv{
+    width:74%;
+}
